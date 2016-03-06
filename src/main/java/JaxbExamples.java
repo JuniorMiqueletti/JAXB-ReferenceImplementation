@@ -46,7 +46,9 @@ public class JaxbExamples {
             e.printStackTrace();
         }
     }
-
+    /*
+    * Reading the file generated on other method
+    */
     public void readXml(){
 
         People meByXml = new People();
