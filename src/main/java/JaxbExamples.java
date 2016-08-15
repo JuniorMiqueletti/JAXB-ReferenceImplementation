@@ -2,6 +2,9 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+
+import com.juniormiqueletti.domain.People;
+
 import java.io.File;
 import java.io.StringWriter;
 
@@ -21,6 +24,7 @@ public class JaxbExamples {
         me.setName("Junior Miqueletti");
         me.setNickName("Junior");
         me.setAge(29);
+        
         jaxbContext = JAXBContext.newInstance(People.class);
         jaxbMarshaller = jaxbContext.createMarshaller();
         jaxbUnmarshaller = jaxbContext.createUnmarshaller();

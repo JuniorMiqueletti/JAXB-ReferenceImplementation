@@ -1,10 +1,8 @@
+package com.juniormiqueletti.domain;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- * Created by Junior-Pc on 06/03/2016.
- */
 @XmlRootElement
 public class People {
 
@@ -12,7 +10,6 @@ public class People {
     String nickName;
     int age;
     int id;
-
 
     public String getNickName() {
         return nickName;
