@@ -3,7 +3,7 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+@XmlRootElement( namespace = "http://www.juniormiqueletti.com/schemas/people/v1_0_0")
 public class People {
 
     String name;

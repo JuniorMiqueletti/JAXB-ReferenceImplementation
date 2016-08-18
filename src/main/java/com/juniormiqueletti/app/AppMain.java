@@ -26,7 +26,7 @@ public class AppMain {
 		
 		People peopleFromXml = new People();
 		
-		peopleFromXml = (People) UtilXML.parseObject(peopleFromXml, new File("File.xml"));
+		peopleFromXml = (People) UtilXML.parseObject(peopleFromXml, new File("fileMe.xml"));
 		
 		System.out.println(peopleFromXml.toString());
 		
