@@ -3,13 +3,13 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement( namespace = "http://www.juniormiqueletti.com/schemas/people/v1_0_0")
+@XmlRootElement
 public class People {
 
-    String name;
-    String nickName;
-    int age;
-    int id;
+	private int id;
+    private String name;
+    private String nickName;
+    private int age;
 
     public String getNickName() {
         return nickName;
