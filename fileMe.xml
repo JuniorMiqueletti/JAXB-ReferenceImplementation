@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:people xmlns:ns2="http://www.juniormiqueletti.com/schemas/people/v1_0_0" ID="1">
-    <AGE>29</AGE>
-    <NAME>Junior Miqueletti</NAME>
-    <NICK_NAME>Junior</NICK_NAME>
-</ns2:people>
