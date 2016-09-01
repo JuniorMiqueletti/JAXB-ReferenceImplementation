@@ -6,4 +6,9 @@
   * Create Xml file.
   * Parse Xml File to Object.
 
+* technologies.
+  *  Java 8
+  *  JUnit
+  *  JAXB
+ 
 ### Junior Miqueletti
