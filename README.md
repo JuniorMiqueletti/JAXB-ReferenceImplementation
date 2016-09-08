@@ -7,8 +7,8 @@
   * Parse Xml File to Object.
 
 * technologies.
-  *  Java 8
-  *  JUnit
   *  JAXB
+  *  JUnit
+  *  Java 8
  
 ### Junior Miqueletti
