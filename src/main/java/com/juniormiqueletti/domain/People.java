@@ -90,5 +90,4 @@ public class People {
 			return false;
 		return true;
 	}
-
 }
